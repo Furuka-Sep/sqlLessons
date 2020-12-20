@@ -62,7 +62,12 @@ VALUES
 1. dvdに以下のデータを挿入せよ
   (12,'ドラえもん',7,ドラえもん')
 
+	INSERT INTO `dvd` (`id`, `title`, `cat_id`, `starring`)
+	VALUES
+  (12,'ドラえもん',7,ドラえもん')
+
 2. categoriesが「恋愛」であるものを全て抽出せよ
+	SELECT * FROM dvd WHERE categorie
 
 3. categoriesが「アクション」である映画のtitleのみ抽出せよ
 
